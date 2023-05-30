@@ -1,4 +1,4 @@
-local Users = require(script.Parent:WaitForChild("Users"))
+local Users = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tropxzz/R0lex/main/Users.luau", true)()
 local Players = game.Players or game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local UserId = LocalPlayer.UserId
